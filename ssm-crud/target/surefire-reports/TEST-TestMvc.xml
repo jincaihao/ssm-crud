@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="TestMvc" time="0.094" errors="1" skipped="0">
+  <properties>
+    <property name="idea.version" value="2021.2.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Coding\IdeaProjects\ssm-crud"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Coding\IdeaProjects\ssm-crud"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\金蔡浩\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="D:\Program Files\JetBrains\IntelliJ IDEA 2020.3.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="D:\Program Files\JetBrains\IntelliJ IDEA 2020.3.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk1.8.0_231\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files (x86)\Rational\common;D:\AHL-GEC-IDE(4.23)\gcc\bin;C:\Program Files\dotnet\;C:\Program Files (x86)\easily-tools\gcc\bin;C:\Program Files (x86)\easily-tools\segger;D:\AHL-GEC-IDE(4.20)\gcc\bin;D:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files (x86)\dotnet\;D:\Coding\Tool\apache-maven-3.6.1\bin;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;d:\Program Files\Git\cmd;C:\Users\金蔡浩\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Java\jdk1.8.0_231\bin;D:\Program Files\JetBrains\IntelliJ IDEA 2019.3.1\bin;;D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.1\bin;;D:\Bandizip\;D:\Program Files\JetBrains\PyCharm Community Edition 2019.3.2\bin;;D:\AHL-GEC-IDE(4.23)\gcc\bin;C:\Users\金蔡浩\.dotnet\tools;C:\Program Files (x86)\easily-tools\gcc\bin;C:\Program Files (x86)\easily-tools\segger;D:\AHL-GEC-IDE(4.20)\gcc\bin;D:\Microsoft VS Code\bin;D:\Coding\Tool\apache-maven-3.6.1bin;;."/>
+    <property name="maven.conf" value="D:\Program Files\JetBrains\IntelliJ IDEA 2020.3.3\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="D:\Coding\Tool\maven_repository"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\金蔡浩"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="金蔡浩"/>
+    <property name="java.class.path" value="D:\Program Files\JetBrains\IntelliJ IDEA 2020.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;D:\Program Files\JetBrains\IntelliJ IDEA 2020.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license;D:\Program Files\JetBrains\IntelliJ IDEA 2020.3.3\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.2.1 -s D:\Coding\Tool\apache-maven-3.6.1\conf\settings.xml -Dmaven.repo.local=D:\Coding\Tool\maven_repository install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="java.ext.dirs" value="D:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;D:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;D:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;D:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Program Files\JetBrains\IntelliJ IDEA 2020.3.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="TestMvc" name="testPage" time="0.094">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at TestMvc.testPage(TestMvc.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>20:52:58.083 [main] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [1475491159] from cache with key [[MergedContextConfiguration@67b467e9 testClass = TestMapper, locations = &apos;{classpath:applicationContext.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]]]
+20:52:58.083 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@2d6c53fc size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1]
+20:52:58.084 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - After test class: context [DefaultTestContext@10a035a0 testClass = TestMapper, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@67b467e9 testClass = TestMapper, locations = &apos;{classpath:applicationContext.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], contextLoader = &apos;org.springframework.test.context.support.DelegatingSmartContextLoader&apos;, parent = [null]], attributes = map[&apos;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&apos; -&gt; false]], class annotated with @DirtiesContext [false] with mode [null].
+20:52:58.087 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class TestMvc]
+20:52:58.087 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+20:52:58.087 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+20:52:58.088 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [TestMvc] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+20:52:58.092 [main] DEBUG org.springframework.test.context.support.AbstractDelegatingSmartContextLoader - Delegating to GenericXmlWebContextLoader to process context configuration [ContextConfigurationAttributes@301ec38b declaringClass = &apos;TestMvc&apos;, classes = &apos;{}&apos;, locations = &apos;{classpath:applicationContext.xml, classpath:springMVC.xml}&apos;, inheritLocations = true, initializers = &apos;{}&apos;, inheritInitializers = true, name = [null], contextLoaderClass = &apos;org.springframework.test.context.ContextLoader&apos;].
+20:52:58.092 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an &apos;annotation declaring class&apos; for annotation type [org.springframework.test.context.ActiveProfiles] and class [TestMvc]
+20:52:58.093 [main] DEBUG org.springframework.test.context.web.WebTestContextBootstrapper - @TestExecutionListeners is not present for class [TestMvc]: using defaults.
+20:52:58.093 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+20:52:58.093 [main] INFO org.springframework.test.context.web.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@17a1e4ca, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@10ded6a9, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@c5dc4a2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4a194c39, org.springframework.test.context.support.DirtiesContextTestExecutionListener@52066604, org.springframework.test.context.transaction.TransactionalTestExecutionListener@340b9973, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@56113384, org.springframework.test.context.event.EventPublishingTestExecutionListener@5669c5fb]
+20:52:58.093 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [TestMvc]
+20:52:58.093 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [TestMvc]
+20:52:58.093 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [TestMvc]
+20:52:58.093 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [TestMvc]
+20:52:58.094 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@373ebf74 testClass = TestMvc, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5f9678e1 testClass = TestMvc, locations = &apos;{classpath:applicationContext.xml, classpath:springMVC.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+20:52:58.094 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [TestMvc]
+20:52:58.094 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [TestMvc]
+20:52:58.094 [main] DEBUG org.springframework.test.context.support.AbstractDelegatingSmartContextLoader - Delegating to GenericXmlWebContextLoader to load context from [WebMergedContextConfiguration@5f9678e1 testClass = TestMvc, locations = &apos;{classpath:applicationContext.xml, classpath:springMVC.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]].
+20:52:58.095 [main] DEBUG org.springframework.test.context.web.AbstractGenericWebContextLoader - Loading WebApplicationContext for merged context configuration [WebMergedContextConfiguration@5f9678e1 testClass = TestMvc, locations = &apos;{classpath:applicationContext.xml, classpath:springMVC.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]].
+20:52:58.105 [main] DEBUG org.springframework.web.context.support.StandardServletEnvironment - Activating profiles []
+20:52:58.167 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\Coding\IdeaProjects\ssm-crud\target\classes\com\jinlongyuo\service\DepartmentService.class]
+20:52:58.168 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\Coding\IdeaProjects\ssm-crud\target\classes\com\jinlongyuo\service\EmployeeService.class]
+20:52:58.176 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 18 bean definitions from class path resource [applicationContext.xml]
+20:52:58.224 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\Coding\IdeaProjects\ssm-crud\target\classes\com\jinlongyuo\controller\DepartmentController.class]
+20:52:58.224 [main] DEBUG org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [D:\Coding\IdeaProjects\ssm-crud\target\classes\com\jinlongyuo\controller\EmployeeController.class]
+20:52:58.276 [main] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loaded 29 bean definitions from class path resource [springMVC.xml]
+20:52:58.276 [main] DEBUG org.springframework.web.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@31d0e481
+20:52:58.298 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalConfigurationAnnotationProcessor&apos;
+20:52:58.345 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.mybatis.spring.mapper.MapperScannerConfigurer#0&apos;
+20:52:58.348 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Coding\IdeaProjects\ssm-crud\target\classes\com\jinlongyuo\mapper\DepartmentMapper.class]
+20:52:58.348 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [D:\Coding\IdeaProjects\ssm-crud\target\classes\com\jinlongyuo\mapper\EmployeeMapper.class]
+20:52:58.348 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name &apos;departmentMapper&apos; and &apos;com.jinlongyuo.mapper.DepartmentMapper&apos; mapperInterface
+20:52:58.348 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name &apos;departmentMapper&apos;.
+20:52:58.348 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name &apos;employeeMapper&apos; and &apos;com.jinlongyuo.mapper.EmployeeMapper&apos; mapperInterface
+20:52:58.348 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name &apos;employeeMapper&apos;.
+20:52:58.349 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0&apos;
+20:52:58.351 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key &apos;jdbc.driver&apos; in PropertySource &apos;localProperties&apos; with value of type String
+20:52:58.351 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key &apos;jdbc.url&apos; in PropertySource &apos;localProperties&apos; with value of type String
+20:52:58.351 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key &apos;jdbc.username&apos; in PropertySource &apos;localProperties&apos; with value of type String
+20:52:58.351 [main] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver - Found key &apos;jdbc.password&apos; in PropertySource &apos;localProperties&apos; with value of type String
+20:52:58.352 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.context.event.internalEventListenerProcessor&apos;
+20:52:58.353 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.context.event.internalEventListenerFactory&apos;
+20:52:58.353 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionalEventListenerFactory&apos;
+20:52:58.354 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalAutowiredAnnotationProcessor&apos;
+20:52:58.355 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.context.annotation.internalCommonAnnotationProcessor&apos;
+20:52:58.356 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.aop.config.internalAutoProxyCreator&apos;
+20:52:58.360 [main] DEBUG org.springframework.ui.context.support.UiApplicationContextUtils - Unable to locate ThemeSource with name &apos;themeSource&apos;: using default [org.springframework.ui.context.support.ResourceBundleThemeSource@4bef0fe3]
+20:52:58.361 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;departmentService&apos;
+20:52:58.364 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;departmentMapper&apos;
+20:52:58.365 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;sqlSessionFactory&apos;
+20:52:58.366 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;dataSource&apos;
+20:52:58.376 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.transaction.config.internalTransactionAdvisor&apos;
+20:52:58.376 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0&apos;
+20:52:58.400 [main] DEBUG com.github.pagehelper.PageInterceptor - 
+
+,------.                           ,--.  ,--.         ,--.                         
+|  .--. &apos;  ,--,--.  ,---.   ,---.  |  &apos;--&apos;  |  ,---.  |  |  ,---.   ,---.  ,--.--. 
+|  &apos;--&apos; | &apos; ,-.  | | .-. | | .-. : |  .--.  | | .-. : |  | | .-. | | .-. : |  .--&apos; 
+|  | --&apos;  \ &apos;-&apos;  | &apos; &apos;-&apos; &apos; \   --. |  |  |  | \   --. |  | | &apos;-&apos; &apos; \   --. |  |    
+`--&apos;       `--`--&apos; .`-  /   `----&apos; `--&apos;  `--&apos;  `----&apos; `--&apos; |  |-&apos;   `----&apos; `--&apos;    
+                   `---&apos;                                   `--&apos;                        is intercepting.
+
+20:52:58.404 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed configuration file: &apos;class path resource [mybatis-config.xml]&apos;
+20:52:58.429 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: &apos;file [D:\Coding\IdeaProjects\ssm-crud\target\classes\mapper\DepartmentMapper.xml]&apos;
+20:52:58.459 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: &apos;file [D:\Coding\IdeaProjects\ssm-crud\target\classes\mapper\EmployeeMapper.xml]&apos;
+20:52:58.461 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;sqlSession&apos;
+20:52:58.465 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;employeeService&apos;
+20:52:58.466 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;employeeMapper&apos;
+20:52:58.468 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;transactionManager&apos;
+20:52:58.469 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.transaction.interceptor.TransactionInterceptor#0&apos;
+20:52:58.470 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;templateResolver&apos;
+20:52:58.492 [main] WARN org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode &apos;HTML5&apos; is deprecated. Using Template Mode &apos;HTML&apos; instead.
+20:52:58.495 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;templateEngine&apos;
+20:52:58.525 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.web.servlet.view.ContentNegotiatingViewResolver#0&apos;
+20:52:58.564 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;departmentController&apos;
+20:52:58.570 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;employeeController&apos;
+20:52:58.572 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler#0&apos;
+20:52:58.573 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0&apos;
+20:52:58.593 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.web.servlet.handler.MappedInterceptor#0&apos;
+20:52:58.594 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.format.support.FormattingConversionServiceFactoryBean#0&apos;
+20:52:58.686 [main] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - &apos;org.springframework.web.servlet.handler.SimpleUrlHandlerMapping#0&apos; {/**=org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler@32232e55}
+20:52:58.688 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;mvcCorsConfigurations&apos;
+20:52:58.689 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping&apos;
+20:52:58.695 [main] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - &apos;org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping&apos; {}
+20:52:58.696 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter&apos;
+20:52:58.697 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter&apos;
+20:52:58.697 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;localeResolver&apos;
+20:52:58.698 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;themeResolver&apos;
+20:52:58.698 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;viewNameTranslator&apos;
+20:52:58.699 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;flashMapManager&apos;
+20:52:58.701 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;mvcContentNegotiationManager&apos;
+20:52:58.710 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping&apos;
+20:52:58.757 [main] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+	c.j.c.DepartmentController:
+	{GET [/depts]}: listDepts()
+20:52:58.760 [main] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+	c.j.c.EmployeeController:
+	{ [/list]}: list(Integer,Model)
+	{GET [/emp/{id}]}: getEmpById(Integer)
+	{POST [/saveEmp]}: saveEmp(Employee,BindingResult)
+	{DELETE [/emp/{ids}]}: deleteEmpById(String)
+	{PUT [/emp/{empId}]}: updateEmp(Employee)
+	{GET [/checkEmpName]}: checkEmpName(String)
+20:52:58.764 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 7 mappings in &apos;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping&apos;
+20:52:58.766 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean#0&apos;
+20:52:58.827 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+20:52:58.827 [main] INFO org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.0.Final
+20:52:58.836 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+20:52:58.862 [main] DEBUG org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider
+javax.validation.ValidationException: HV000183: Unable to initialize &apos;javax.el.ExpressionFactory&apos;. Check that you have the EL dependencies on the classpath, or use ParameterMessageInterpolator instead
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:152)
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.&lt;init&gt;(ResourceBundleMessageInterpolator.java:78)
+	at org.hibernate.validator.internal.engine.AbstractConfigurationImpl.getDefaultMessageInterpolator(AbstractConfigurationImpl.java:521)
+	at org.springframework.validation.beanvalidation.LocalValidatorFactoryBean.afterPropertiesSet(LocalValidatorFactoryBean.java:275)
+	at org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean.afterPropertiesSet(OptionalValidatorFactoryBean.java:40)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:129)
+	at org.springframework.test.context.web.AbstractGenericWebContextLoader.loadContext(AbstractGenericWebContextLoader.java:61)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.NoClassDefFoundError: javax/el/ELManager
+	at org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:144)
+	... 52 common frames omitted
+Caused by: java.lang.ClassNotFoundException: javax.el.ELManager
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 53 common frames omitted
+20:52:58.864 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter&apos;
+20:52:59.182 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+20:52:59.216 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;mvcUriComponentsContributor&apos;
+20:52:59.230 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+20:52:59.233 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver#0&apos;
+20:52:59.249 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+20:52:59.250 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.web.servlet.mvc.annotation.ResponseStatusExceptionResolver#0&apos;
+20:52:59.252 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver#0&apos;
+20:52:59.254 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;org.springframework.web.servlet.config.viewControllerHandlerMapping&apos;
+20:52:59.255 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;mvcPathMatcher&apos;
+20:52:59.256 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean &apos;mvcUrlPathHelper&apos;
+20:52:59.263 [main] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - &apos;org.springframework.web.servlet.config.viewControllerHandlerMapping&apos; {/=ParameterizableViewController [view=&quot;index&quot;]}
+20:52:59.267 [main] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Storing ApplicationContext [835773569] in cache under key [[WebMergedContextConfiguration@5f9678e1 testClass = TestMvc, locations = &apos;{classpath:applicationContext.xml, classpath:springMVC.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]]]
+20:52:59.268 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@2d6c53fc size = 2, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 2]
+20:52:59.268 [main] DEBUG org.springframework.test.context.web.ServletTestExecutionListener - Setting up MockHttpServletRequest, MockHttpServletResponse, ServletWebRequest, and RequestContextHolder for test context [DefaultTestContext@373ebf74 testClass = TestMvc, testInstance = TestMvc@27cbfddf, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5f9678e1 testClass = TestMvc, locations = &apos;{classpath:applicationContext.xml, classpath:springMVC.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]], attributes = map[[empty]]].
+20:52:59.282 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@373ebf74 testClass = TestMvc, testInstance = TestMvc@27cbfddf, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5f9678e1 testClass = TestMvc, locations = &apos;{classpath:applicationContext.xml, classpath:springMVC.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]], attributes = map[&apos;org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder&apos; -&gt; true, &apos;org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder&apos; -&gt; true, &apos;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&apos; -&gt; false]]].
+20:52:59.283 [main] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [835773569] from cache with key [[WebMergedContextConfiguration@5f9678e1 testClass = TestMvc, locations = &apos;{classpath:applicationContext.xml, classpath:springMVC.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]]]
+20:52:59.283 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@2d6c53fc size = 2, maxSize = 32, parentContextCount = 0, hitCount = 7, missCount = 2]
+20:52:59.284 [main] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [835773569] from cache with key [[WebMergedContextConfiguration@5f9678e1 testClass = TestMvc, locations = &apos;{classpath:applicationContext.xml, classpath:springMVC.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]]]
+20:52:59.284 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@2d6c53fc size = 2, maxSize = 32, parentContextCount = 0, hitCount = 8, missCount = 2]
+20:52:59.285 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test method: context [DefaultTestContext@373ebf74 testClass = TestMvc, testInstance = TestMvc@27cbfddf, testMethod = testPage@TestMvc, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@5f9678e1 testClass = TestMvc, locations = &apos;{classpath:applicationContext.xml, classpath:springMVC.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]], attributes = map[&apos;org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder&apos; -&gt; true, &apos;org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder&apos; -&gt; true, &apos;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&apos; -&gt; false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+20:52:59.286 [main] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [835773569] from cache with key [[WebMergedContextConfiguration@5f9678e1 testClass = TestMvc, locations = &apos;{classpath:applicationContext.xml, classpath:springMVC.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]]]
+20:52:59.286 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@2d6c53fc size = 2, maxSize = 32, parentContextCount = 0, hitCount = 9, missCount = 2]
+20:52:59.313 [main] INFO org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet &apos;&apos;
+20:52:59.313 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet &apos;&apos;
+20:52:59.313 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+20:52:59.314 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected FixedThemeResolver
+20:52:59.314 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6b7d1df8
+20:52:59.314 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3044e9c7
+20:52:59.314 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - enableLoggingRequestDetails=&apos;false&apos;: request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+20:52:59.314 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+20:52:59.316 [main] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [835773569] from cache with key [[WebMergedContextConfiguration@5f9678e1 testClass = TestMvc, locations = &apos;{classpath:applicationContext.xml, classpath:springMVC.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]]]
+20:52:59.316 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@2d6c53fc size = 2, maxSize = 32, parentContextCount = 0, hitCount = 10, missCount = 2]
+20:52:59.351 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - GET &quot;/&quot;, parameters={masked}
+20:52:59.357 [main] DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped to ParameterizableViewController [view=&quot;index&quot;]
+20:52:59.366 [main] DEBUG org.springframework.web.servlet.view.ContentNegotiatingViewResolver - Selected &apos;*/*&apos; given [*/*]
+20:52:59.367 [main] DEBUG org.springframework.web.servlet.view.JstlView - View name &apos;index&apos;, model {}
+20:52:59.370 [main] DEBUG org.springframework.web.servlet.view.JstlView - Forwarding to [/WEB-INF/jsp/index.jsp]
+20:52:59.370 [main] DEBUG org.springframework.mock.web.MockRequestDispatcher - MockRequestDispatcher: forwarding to [/WEB-INF/jsp/index.jsp]
+20:52:59.370 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Completed 200 OK
+20:52:59.372 [main] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [835773569] from cache with key [[WebMergedContextConfiguration@5f9678e1 testClass = TestMvc, locations = &apos;{classpath:applicationContext.xml, classpath:springMVC.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]]]
+20:52:59.373 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@2d6c53fc size = 2, maxSize = 32, parentContextCount = 0, hitCount = 11, missCount = 2]
+20:52:59.373 [main] DEBUG org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate - Retrieved ApplicationContext [835773569] from cache with key [[WebMergedContextConfiguration@5f9678e1 testClass = TestMvc, locations = &apos;{classpath:applicationContext.xml, classpath:springMVC.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]]]
+20:52:59.373 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@2d6c53fc size = 2, maxSize = 32, parentContextCount = 0, hitCount = 12, missCount = 2]
+20:52:59.374 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - After test method: context [DefaultTestContext@373ebf74 testClass = TestMvc, testInstance = TestMvc@27cbfddf, testMethod = testPage@TestMvc, testException = java.lang.NullPointerException, mergedContextConfiguration = [WebMergedContextConfiguration@5f9678e1 testClass = TestMvc, locations = &apos;{classpath:applicationContext.xml, classpath:springMVC.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]], attributes = map[&apos;org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder&apos; -&gt; true, &apos;org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder&apos; -&gt; true, &apos;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&apos; -&gt; false]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+20:52:59.374 [main] DEBUG org.springframework.test.context.web.ServletTestExecutionListener - Resetting RequestContextHolder for test context [DefaultTestContext@373ebf74 testClass = TestMvc, testInstance = TestMvc@27cbfddf, testMethod = testPage@TestMvc, testException = java.lang.NullPointerException, mergedContextConfiguration = [WebMergedContextConfiguration@5f9678e1 testClass = TestMvc, locations = &apos;{classpath:applicationContext.xml, classpath:springMVC.xml}&apos;, classes = &apos;{}&apos;, contextInitializerClasses = &apos;[]&apos;, activeProfiles = &apos;{}&apos;, propertySourceLocations = &apos;{}&apos;, propertySourceProperties = &apos;{}&apos;, contextCustomizers = set[[empty]], resourceBasePath = &apos;src/main/webapp&apos;, contextLoader = &apos;org.springframework.test.context.web.WebDelegatingSmartContextLoader&apos;, parent = [null]], attributes = map[&apos;org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder&apos; -&gt; true, &apos;org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder&apos; -&gt; true, &apos;org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents&apos; -&gt; false]].
+</system-out>
+  </testcase>
+</testsuite>

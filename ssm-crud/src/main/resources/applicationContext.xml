@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+<!--Spring的配置文件，这里主要配置与业务逻辑相关的-->
+    
+    <context:component-scan base-package="com.jinlongyuo">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+    
+    <!--  数据源、事务管理器  -->
+    <!--引入外部属性文件-->
+    <context:property-placeholder location="classpath:dbconfig.properties"/>
+    <!--配置Druid数据库连接池-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <!--配置事务管理器并开启事务注解-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+    <!--=========================基于xml方式的事务配置========================-->
+    <!--<aop:config>-->
+    <!--    &lt;!&ndash;切入点表达式&ndash;&gt;-->
+    <!--    <aop:pointcut id="pt" expression="execution(* com.jinlongyuo.service..*(..))"/>-->
+    <!--    &lt;!&ndash;切面&ndash;&gt;-->
+    <!--    <aop:advisor advice-ref="txadvice" pointcut-ref="pt"/>-->
+    <!--</aop:config>-->
+    <!--&lt;!&ndash;配置通知&ndash;&gt;-->
+    <!--<tx:advice id="txadvice" transaction-manager="transactionManager">-->
+    <!--    <tx:attributes>-->
+    <!--        &lt;!&ndash;所有方法都是事务方法&ndash;&gt;-->
+    <!--        <tx:method name="*"/>-->
+    <!--        &lt;!&ndash;以get开头的方法的相关配置&ndash;&gt;-->
+    <!--        <tx:method name="get*" read-only="true"/>-->
+    <!--    </tx:attributes>-->
+    <!--</tx:advice>-->
+    <!--======================================================================-->
+
+
+    <!--Spring与MyBatis的整合-->
+    <!--1.配置SqlSessionFactoryBean-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <!--指定mybaits全局配置文件的位置-->
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
+        <!--指定mybaits，mapper文件的位置-->
+        <property name="mapperLocations" value="classpath:mapper/*.xml"/>
+    </bean>
+    <!--2.配置自动扫描mapper接口的实现,加入IOC组件的配置-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.jinlongyuo.mapper"/>
+    </bean>
+    <!--3.以有参构造的方式使用SqlSessionTemplate注入一个用于批量操作的SqlSession-->
+    <bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory"/>
+        <constructor-arg name="executorType" value="BATCH"/>
+    </bean>
+</beans>
